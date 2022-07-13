@@ -1,0 +1,158 @@
+html, head, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+nav.navbar-transparente {
+	padding: 25px 0px;
+	background: black;
+}
+
+body{
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+a{
+	color: white;
+}
+
+h1{
+	letter-spacing: -0.05em;
+	font-weight: 900;
+}
+#nav-horizontal a{
+	color:  white;
+	font-size: 20px;
+	padding: 5px;
+	margin: 0 10px;
+}
+
+#home-premium{
+	background-color: #fad2d2;
+	padding-top: 60px;
+	
+	padding-left: 0;
+}
+#home-premium h1{
+	font-weight: bold;
+}
+#home-premium h4{
+	padding-top: 20px ;
+}
+
+#vantagens-premium{
+	text-align: center;
+	padding: 40px;
+}
+#vantagens-premium img{
+	background-color: gray;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+#vantagens-premium h4{
+	padding: 20px;
+	margin: 5px 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#vantagens-premium h1{
+	font-weight: bold;
+	margin-bottom:20px ;
+}
+
+#planos-premium{
+	background-color: #E5E5E5;
+	text-align: center;
+	padding: 60px;
+}
+#planos-premium ul li{
+	text-align: left;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+footer h4{
+	text-transform: uppercase;
+	color: gray;
+	font-size: 15px;
+}
+
+footer li{
+	color: white;
+	margin: 10px 0px;
+}
+footer ul {
+	list-style: none;
+}
+
+footer .col-md-4 ul li{
+	float: right;
+	list-style: none;
+	margin: 0 5px;
+}
+
+footer li a:hover {
+  color: #008b8b;
+  text-decoration: none;
+}
+
+.caixa{
+	width: 200px;
+	border: solid 1px;
+	background-color: white;
+	border-radius: 20px;
+	margin: 5px;
+}
+
+#letrasMiudas{
+	font-size: 10px;
+}
+
+nav li a:hover {
+  background-color: #008b8b;
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 5px 15px;
+}
+.btn-entrar{
+	color: blue;
+	background: white;
+}
+
+.btn-custom {
+	color: white;
+	margin: 30px 10px;
+	font-size: 1em;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.btn-comecar{
+	text-transform: uppercase;
+	background-color: black;
+	margin-left: 0px;
+}
+.btn-planos{
+	color: black;
+	border: solid black;
+	text-transform: uppercase;
+}
+
+.btn-planos:hover{
+	background-color: white;
+}
+.btn-comecar:hover{
+	border: solid black;
+	background-color: white;
+}
+
