@@ -3,9 +3,65 @@ html, head, body, #home {
 	overflow-x: hidden;
 }
 
+/* Navbar - Menu Superior Principal */
 nav.navbar-transparente {
 	padding: 25px 0px;
 	background: black;
+}
+
+nav li a:hover {
+  background-color: #008b8b;
+}
+
+#nav-horizontal a{
+	color:  white;
+	font-size: 20px;
+	padding: 5px;
+	margin: 0 10px;
+}
+
+/*divisor navbar cabeçalho*/ 
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 5px 15px;
+}
+
+/*Botão entrar navbar cabeçalho*/
+.btn-entrar{
+	color: blue;
+	background: white;
+}
+
+/*Configura botões*/
+.btn-custom {
+	color: white;
+	margin: 30px 10px;
+	font-size: 1em;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.btn-comecar{
+	text-transform: uppercase;
+	background-color: black;
+	margin-left: 0px;
+}
+
+.btn-planos{
+	color: black;
+	border: solid black;
+	text-transform: uppercase;
+}
+
+.btn-planos:hover{
+	background-color: white;
+}
+
+.btn-comecar:hover{
+	border: solid black;
+	background-color: white;
 }
 
 body{
@@ -21,56 +77,172 @@ h1{
 	letter-spacing: -0.05em;
 	font-weight: 900;
 }
-#nav-horizontal a{
-	color:  white;
-	font-size: 20px;
-	padding: 5px;
-	margin: 0 10px;
+
+/* Espaço entre seções*/
+section {
+	padding: 20px;
 }
 
+/*Gradiente Menu superior pág de Suporte*/
+#suporte-cab{
+	background-image: linear-gradient(to bottom, #50c878, #0b2413);
+}
+/*Gradiente Seção ajuda pág de Suporte*/
+#suporte-ajuda{
+	background-image: linear-gradient(to bottom, #0b2413, #050505);
+	color: white;
+}
+
+/*Home pág Premium */
 #home-premium{
 	background-color: #fad2d2;
 	padding-top: 60px;
 	
 	padding-left: 0;
 }
+
 #home-premium h1{
 	font-weight: bold;
 }
+
 #home-premium h4{
 	padding-top: 20px ;
 }
 
+/*Seção vantagens pág Premium */
 #vantagens-premium{
 	text-align: center;
 	padding: 40px;
 }
+/*Configura letras banner pág Premium*/
+#letrasMiudas{
+	font-size: 10px;
+}
+
 #vantagens-premium img{
 	background-color: gray;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
     -moz-border-radius: 500px;
 }
+
 #vantagens-premium h4{
 	padding: 20px;
 	margin: 5px 5px;
 	font-weight: bold;
 	font-size: 20px;
 }
+
 #vantagens-premium h1{
 	font-weight: bold;
 	margin-bottom:20px ;
 }
 
+/* Seção planos pág Premium */
 #planos-premium{
 	background-color: #E5E5E5;
 	text-align: center;
 	padding: 60px;
 }
+
 #planos-premium ul li{
 	text-align: left;
 }
 
+#elementos-ajuda h1{
+	text-align: left;
+	font-size: 60px;
+	padding: 0;
+}
+#elementos-ajuda{
+width: 60%;
+height: 60%;
+justify-content: left;
+align-items: center;
+}
+
+/* Seção ajuda pág Suporte */
+
+/*Barra de pesquisa*/
+#divBusca span , input{
+	width: 100%;
+}
+#divBusca span{
+	margin-left: 8px;
+}
+
+#suporte-ajuda h4{
+	color: gray;
+	text-transform: uppercase;
+}
+
+#ajuda-rapida{
+	background-color: #141414;
+}
+
+/* Define dimensões do container */
+#elementos-ajuda-rapida{
+	width: 60%;
+	height: 60%;
+}
+
+#elementos-ajuda-rapida h4{
+	color: white;
+	font-weight: bold;
+	margin: 8px;
+}
+
+#elementos-ajuda-rapida ul li{
+	margin: 18px 0px;
+}
+
+#elementos-ajuda-rapida a{
+	margin: 8px;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+#suporte-ajuda img{
+	align-items: center;
+	width: 200px;
+	height: 100px;
+	border: solid 2px black;
+	border-radius: 7px;
+	margin: 8px 10px;
+}
+
+#suporte-ajuda img:hover{
+	border: solid 5px green;
+}
+
+/* Seção Comunidade pág suporte*/
+#comunidade{
+	background-color: #020202;
+	color: white;
+}
+
+#elementos-comunidade{
+	width: 60%;
+	height: 60%;
+	text-align: center;
+}
+
+#btn-comunidade{
+	background-color: green;
+	color: black;
+	font-weight: bold;
+}
+
+/* Icone > Seção Ajuda Rápida Pág Suporte */
+.fa-chevron-right{
+	float: right;
+	color: white;
+}
+
+
+/* Rodapé */
 footer{
 	background-color: black;
 	color: white;
@@ -109,50 +281,3 @@ footer li a:hover {
 	border-radius: 20px;
 	margin: 5px;
 }
-
-#letrasMiudas{
-	font-size: 10px;
-}
-
-nav li a:hover {
-  background-color: #008b8b;
-}
-
-.divisor{
-	width: 1px;
-	background: white;
-	margin: 5px 15px;
-}
-.btn-entrar{
-	color: blue;
-	background: white;
-}
-
-.btn-custom {
-	color: white;
-	margin: 30px 10px;
-	font-size: 1em;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-}
-
-.btn-comecar{
-	text-transform: uppercase;
-	background-color: black;
-	margin-left: 0px;
-}
-.btn-planos{
-	color: black;
-	border: solid black;
-	text-transform: uppercase;
-}
-
-.btn-planos:hover{
-	background-color: white;
-}
-.btn-comecar:hover{
-	border: solid black;
-	background-color: white;
-}
-

@@ -19,7 +19,7 @@
   </head>
   <body>
     <header> <!-- Inicio Cabeçalho -->
-      <nav class="navbar nav navbar-expand-md navbar-light navbar-fixed-top navbar-transparente">
+      <nav class="navbar nav navbar-expand-md navbar-light navbar-fixed-top navbar-transparente" id="suporte-cab">
         <div class="container " id="nav-horizontal">
           <a href="index.html" class="navbar-brand">
             <img src="imagens/spotify.svg" width="142">
@@ -30,10 +30,10 @@
           <div class="collapse navbar-collapse "id="nav-principal">>
             <ul class ="navbar-nav ml-auto"> 
              <li class="nav-item">
-              <a href=""class="nav-link">Premium</a>
+              <a href="index.html"class="nav-link">Premium</a>
              </li>
              <li class="nav-item">
-              <a href="suporte.html"class="nav-link">Suporte</a>
+              <a href=""class="nav-link">Suporte</a>
              </li>
              <li class="nav-item">
               <a href=""class="nav-link">Baixar</a>
@@ -50,59 +50,88 @@
         </div>
       </nav>
     </header><!-- Fim Cabeçalho -->
-
-    <section id="home-premium" class="d-flex"><!--home -->
-      <div class="container align-self-left"><!--container -->
+ 
+    <section id="suporte-ajuda" class="d-flex"><!--home -->
+      <div class="container"><!--container -->
         <div class="row"><!--row -->
-          <div class="col-md-12">
-            <h1>Curta o Premium grátis por 2 meses</h1>
-            <h4>Depois, pague somente R$ 19,90/mês. Cancele quando quiser. </h4>
-              <a href="" class="btn btn-lg btn-custom btn-comecar">
-                    Começar
-              </a>
-              <a href="" class="btn btn-lg btn-custom btn-planos">
-                    Ver Planos
-              </a>
-          </div>
-          <div class="col-md-12" id = "letrasMiudas">
-            <p> <u>Sujeito a Termos e Condições.</u> Os 2 meses grátis não estão disponíveis para usuários que já experimentaram o Premium.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+          <div id= "elementos-ajuda" class="container">
+            <div class="col-md-12">
+              <h4>Atendimento do Spotify</h4>
+              <h1>Como podemos ajudar?</h1>
+              <p><a href="">Faça log in</a> para ter ajuda mais rápido.</p>
+            </div>
 
-    <section id="vantagens-premium" class="d-flex"><!--home -->
-      <div class="container align-self-center"><!--container -->
-        <div class="row"><!--row -->
-          <div class="col-md-12">
-            <h1>Por que ser Premium?</h1>
-          </div>
-          <div class="row"><!--row -->
-            <div class="col-md-3">
-               <img src="imagens/notaMusic1.jpg" class="img-fluid" width="180px">
-               <h4>Modo offline.</h4>
-               <p>Ouça música onde estiver.</p>
+            <div class="input-group mb-3" id="divBusca">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+              </div>
+               <input type="text" class="form-control" id="txtBusca" placeholder="Buscar..."/>
             </div>
-            <div class="col-md-3">
-               <img src="imagens/notaMusic1.jpg" class="img-fluid" width="180px">
-                <h4>Sem anúncios.</h4>
-               <p>Curta música, sem parar.</p>
+
+            <div class="row"><!--row -->
+              <div class="col-md-4">
+                <a href=""><img src="imagens/pagamentos.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="imagens/planos.jpg" class="img-fluid"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="imagens/app.jpg" class="img-fluid"></a>
+              </div>
             </div>
-            <div class="col-md-3">
-               <img src="imagens/notaMusic1.jpg" class="img-fluid"width="180px">
-                <h4>Ouça o que quiser.</h4>
-               <p>Mesmo no celular ou tablet.</p>
-            </div>
-            <div class="col-md-3">
-               <img src="imagens/notaMusic1.jpg" class="img-fluid"width="180px">
-                <h4>Troque de música o quanto quiser.</h4>
-               <p>Pule quando quiser.</p>
+                 <div class="row"><!--row -->
+              <div class="col-md-4">
+                <a href=""><img src="imagens/dispositivos.jpg" class="img-fluid"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="imagens/privacidade.jpg" class="img-fluid"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="imagens/conta.jpg" class="img-fluid"></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     
+     <section id="ajuda-rapida" class="d-flex"><!--home -->
+      <div class="container"><!--container -->
+        <div class="row"><!--row -->
+          <div id= "elementos-ajuda-rapida" class="container">
+            <div class="col-md-12">
+              <h4>Ajuda rápida</h4>
+               <ul class="navbar-nav">
+                <li><a href="">Não consigo redefinir a senha</a> <i class="fa-solid fa-chevron-right"></i></li>
+                <li><a href="">Tem algo errado com a minha conta</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li><a href="">Não lembro minhas informações de login</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li><a href="">Ajuda para entrar com o Facebook</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li><a href="">Formas de pagamento</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li><a href="">Criar ou entrar em um plano Família</a><i class="fa-solid fa-chevron-right"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comunidade" class="d-flex"><!--home -->
+      <div class="container"><!--container -->
+        <div class="row"><!--row -->
+          <div id= "elementos-comunidade" class="container">
+            <div class="col-md-12">
+              <h1>Visite nossa Comunidade</h1>
+              <p>Tem uma pergunta? Encontre respostas na nossa Comunidade de fãs especialistas do mundo todo!</p>
+              <a href="" class="btn btn-lg btn-custom btn-comecar" id="btn-comunidade">
+                    Acesse a Comunidade do Spotify
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <footer>
       <div class="container">
         <div class="row">
